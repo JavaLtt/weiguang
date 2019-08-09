@@ -14,4 +14,7 @@ public interface UsersMapper {
     int updateByPrimaryKeySelective(Users record);
 
     int updateByPrimaryKey(Users record);
+
+    //根据手机号查询对象
+    public Users fingbyphone(String phonenumber);
 }

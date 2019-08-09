@@ -22,4 +22,14 @@ public class UsersServiceImpl implements UsersService {
 
         return usersMapper.selectByPrimaryKey(id);
     }
+
+    @Override
+    public Users fingbyphone(String phonenumber) {
+        return usersMapper.fingbyphone(phonenumber);
+    }
+
+    @Override
+    public int insertSelective(Users record) {
+        return usersMapper.insertSelective(record);
+    }
 }

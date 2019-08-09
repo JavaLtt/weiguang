@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weiguang.mapper.ReplyMapper">
+  <resultMap id="BaseResultMap" type="com.weiguang.pojo.Reply">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="uid" jdbcType="INTEGER" property="uid" />
+    <result column="blogID" jdbcType="INTEGER" property="blogid" />
+    <result column="replyContent" jdbcType="VARCHAR" property="replycontent" />
+    <result column="replyTime" jdbcType="TIMESTAMP" property="replytime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, uid, blogID, replyContent, replyTime
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from reply
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from reply
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.weiguang.pojo.Reply">
+    insert into reply (id, uid, blogID, 
+      replyContent, replyTime)
+    values (#{id,jdbcType=INTEGER}, #{uid,jdbcType=INTEGER}, #{blogid,jdbcType=INTEGER}, 
+      #{replycontent,jdbcType=VARCHAR}, #{replytime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.weiguang.pojo.Reply">
+    insert into reply
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="uid != null">
+        uid,
+      </if>
+      <if test="blogid != null">
+        blogID,
+      </if>
+      <if test="replycontent != null">
+        replyContent,
+      </if>
+      <if test="replytime != null">
+        replyTime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="uid != null">
+        #{uid,jdbcType=INTEGER},
+      </if>
+      <if test="blogid != null">
+        #{blogid,jdbcType=INTEGER},
+      </if>
+      <if test="replycontent != null">
+        #{replycontent,jdbcType=VARCHAR},
+      </if>
+      <if test="replytime != null">
+        #{replytime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.weiguang.pojo.Reply">
+    update reply
+    <set>
+      <if test="uid != null">
+        uid = #{uid,jdbcType=INTEGER},
+      </if>
+      <if test="blogid != null">
+        blogID = #{blogid,jdbcType=INTEGER},
+      </if>
+      <if test="replycontent != null">
+        replyContent = #{replycontent,jdbcType=VARCHAR},
+      </if>
+      <if test="replytime != null">
+        replyTime = #{replytime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.weiguang.pojo.Reply">
+    update reply
+    set uid = #{uid,jdbcType=INTEGER},
+      blogID = #{blogid,jdbcType=INTEGER},
+      replyContent = #{replycontent,jdbcType=VARCHAR},
+      replyTime = #{replytime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

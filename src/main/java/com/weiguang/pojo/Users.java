@@ -5,6 +5,16 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import java.util.Date;
 
 public class Users {
+    private Room room;
+
+    public Room getRoom() {
+        return room;
+    }
+
+    public void setRoom(Room room) {
+        this.room = room;
+    }
+
     private Integer userid;
 
     private String name;
