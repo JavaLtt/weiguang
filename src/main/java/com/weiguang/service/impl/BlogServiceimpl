@@ -17,4 +17,10 @@ public class BlogServiceimpl implements BlogService {
     public List<Blog> findbyUserId(int userId) {
         return blogMapper.findbyUserId(userId);
     }
+    
+    @Override
+    public int insertSelective(Blog record) {
+        return blogMapper.insertSelective(record);
+    }
+    
 }
