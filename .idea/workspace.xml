@@ -7,658 +7,550 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9892bf37-b864-47b3-b70c-fe85aa7d3d08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/service/RoomService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/service/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/service/impl/RoomServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/service/impl/TestSmsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/service/impl/TestYunpianClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/utils/DataView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/utils/StatusUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/YunpianClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/YunpianConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/YunpianException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/YunpianClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/YunpianConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/YunpianException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/ApiFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/CallApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/FlowApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/ShortUrlApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/SignApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/SmsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/TplApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/UserApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/VideoSmsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/VoiceApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/VoidApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/YunpianApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/api/YunpianApiResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/constant/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/constant/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/constant/Messages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/constant/YunpianConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/constant/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/constant/messages_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/BaseInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/BaseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/Blackword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/CallBill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/CallBind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/CallRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/ErrorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/FlowPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/FlowSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/FlowStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/ResultDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/ShortUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/Sign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/SignRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/SmsBatchSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/SmsRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/SmsReply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/SmsSingleSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/SmsStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/VideoLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/VoiceSend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/model/VoiceStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/service/AbstractOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/service/FlowOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/service/SmsOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/service/TplOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/service/UserOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/service/VoiceOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/service/YunpianRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/util/ApiUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/util/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/util/DesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/util/HttpEntityWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/util/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/util/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/util/SignUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/sdk/util/TeaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/service/AbstractOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/service/FlowOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/service/SmsOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/service/TplOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/service/UserOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/service/VoiceOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/service/YunpianRestClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/util/ApiUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/util/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/util/DesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/util/HttpEntityWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/util/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/util/JsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/util/SignUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yunpian/util/TeaUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/yunpian.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/yunpian_online.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/yunpian_rest.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/yunpian_test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/controller/UsersController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/BlacklistMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/BlogMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/FriendMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/MessageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/ReplyMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/RoomMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/UsersMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Blacklist.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Blog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Friend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Reply.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Users.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/service/RoomService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/service/SmsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/service/UsersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/service/impl/RoomServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/service/impl/TestSmsApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/service/impl/TestYunpianClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/service/impl/UsersServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/utils/DataView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/weiguang/utils/StatusUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/YunpianClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/YunpianConf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/YunpianException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/YunpianClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/YunpianConf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/YunpianException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/ApiFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$4$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$1$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$3$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/ShortUrlApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/ShortUrlApi$2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/ShortUrlApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/ShortUrlApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SignApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SignApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SignApi$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SignApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SignApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$16.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$17.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$18.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$19.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$6$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$7$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$8$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$9$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$2$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/UserApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/UserApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/UserApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VideoSmsApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VideoSmsApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VideoSmsApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VideoSmsApi$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VideoSmsApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi$3$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoidApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$AbstractResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$ListResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$MapResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$ResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$SimpleListResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$StdResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/Code.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/Config.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/Messages.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/YunpianConstant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/messages_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/BaseInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/BaseStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/Blackword.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/CallBill.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/CallBind.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/CallRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/ErrorInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/FlowPackage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/FlowSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/FlowStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/ResultDO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/ShortUrl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/Sign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SignRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SmsBatchSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SmsRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SmsReply.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SmsSingleSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SmsStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/Template.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/VideoLayout$FrameData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/VideoLayout$VideoFrame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/VideoLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/VoiceSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/VoiceStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/AbstractOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/FlowOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/FlowOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/FlowOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/FlowOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/UserOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/VoiceOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/VoiceOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/VoiceOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/YunpianRestClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/ApiUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/Convert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/DesUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/HttpEntityWrapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/HttpUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/HttpUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/JsonUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/JsonUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/SignUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/SignUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/StringUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/TeaUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/AbstractOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/FlowOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/FlowOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/FlowOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/FlowOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/UserOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/VoiceOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/VoiceOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/VoiceOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/service/YunpianRestClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/ApiUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/Convert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/DesUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/HttpEntityWrapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/HttpUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/HttpUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/JsonUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/JsonUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/SignUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/SignUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/StringUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/yunpian/util/TeaUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BlacklistMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/FriendMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/MessageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ReplyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/RoomMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yunpian.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yunpian_online.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yunpian_rest.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yunpian_test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/controller/UsersController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/BlacklistMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/BlogMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/FriendMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/MessageMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/ReplyMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/RoomMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/UsersMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Blacklist.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Blog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Friend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Reply.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Room.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Users.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/RoomService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/SmsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/UsersService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/impl/RoomServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/impl/TestSmsApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/impl/TestYunpianClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/impl/UsersServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/utils/DataView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/utils/StatusUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/YunpianClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/YunpianConf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/YunpianException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/YunpianClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/YunpianConf.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/YunpianException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/ApiFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$4$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$1$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$3$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/ShortUrlApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/ShortUrlApi$2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/ShortUrlApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/ShortUrlApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SignApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SignApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SignApi$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SignApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SignApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$11.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$12.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$13.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$14.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$15.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$16.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$17.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$18.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$19.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$6$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$7$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$8$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$9$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$1$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$2$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$2$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/UserApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/UserApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/UserApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VideoSmsApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VideoSmsApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VideoSmsApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VideoSmsApi$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VideoSmsApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi$3$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoidApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApi.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$AbstractResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$ListResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$MapResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$ResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$SimpleListResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$StdResultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/Code.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/Config.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/Messages.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/YunpianConstant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/messages_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/BaseInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/BaseStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/Blackword.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/CallBill.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/CallBind.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/CallRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/ErrorInfo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/FlowPackage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/FlowSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/FlowStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/Result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/ResultDO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/ShortUrl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/Sign.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SignRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SmsBatchSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SmsRecord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SmsReply.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SmsSingleSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SmsStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/Template.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/VideoLayout$FrameData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/VideoLayout$VideoFrame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/VideoLayout.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/VoiceSend.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/VoiceStatus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/AbstractOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/FlowOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/FlowOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/FlowOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/FlowOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/UserOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/VoiceOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/VoiceOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/VoiceOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/YunpianRestClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/ApiUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/Convert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/DesUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/HttpEntityWrapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/HttpUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/HttpUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/JsonUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/JsonUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/SignUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/SignUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/StringUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/TeaUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/AbstractOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/FlowOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/FlowOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/FlowOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/FlowOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/UserOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/VoiceOperator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/VoiceOperator$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/VoiceOperator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/YunpianRestClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/ApiUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/Convert.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/DesUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/HttpEntityWrapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/HttpUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/HttpUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/JsonUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/JsonUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/SignUtil$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/SignUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/StringUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/TeaUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/BlacklistMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/BlogMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/FriendMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/MessageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/ReplyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/RoomMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/UsersMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/spring-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/yunpian.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/yunpian_online.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/yunpian_rest.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/yunpian_test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/cors-filter-1.3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.40.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/gson-2.6.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpasyncclient-4.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpasyncclient-cache-4.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpclient-cache-4.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpcore-nio-4.4.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpmime-4.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/java-property-utils-1.9.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.38.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-4.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.26.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.12.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-1.1.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.7.2.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-4.2.6.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.11.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lgz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weiguang/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weiguang/mapper/RoomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/mapper/RoomMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weiguang/mapper/UsersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/mapper/UsersMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weiguang/pojo/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/pojo/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weiguang/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/pojo/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weiguang/service/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/service/UsersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weiguang/service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weiguang/service/impl/UsersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RoomMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoomMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UsersMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/controller/UsersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/BlacklistMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/BlogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/FriendMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/MessageMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/ReplyMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/RoomMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/mapper/UsersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Blacklist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Friend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/pojo/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/service/RoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/service/SmsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/service/UsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/service/impl/RoomServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/service/impl/TestSmsApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/service/impl/TestYunpianClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/service/impl/UsersServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/utils/DataView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/weiguang/utils/StatusUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/YunpianClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/YunpianConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/YunpianException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/YunpianClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/YunpianConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/YunpianException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/ApiFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/CallApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$3$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/FlowApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/ShortUrlApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/ShortUrlApi$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/ShortUrlApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/ShortUrlApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SignApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SignApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SignApi$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SignApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SignApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$8$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/SmsApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/TplApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/UserApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/UserApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/UserApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VideoSmsApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VideoSmsApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VideoSmsApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VideoSmsApi$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VideoSmsApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi$3$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoiceApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/VoidApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$AbstractResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$ListResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$MapResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$ResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$SimpleListResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult$StdResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/api/YunpianApiResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/Code.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/Messages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/YunpianConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/constant/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/BaseInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/BaseStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/Blackword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/CallBill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/CallBind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/CallRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/ErrorInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/FlowPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/FlowSend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/FlowStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/ResultDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/ShortUrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/Sign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SignRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SmsBatchSend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SmsRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SmsReply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SmsSingleSend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/SmsStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/Template.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/VideoLayout$FrameData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/VideoLayout$VideoFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/VideoLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/VoiceSend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/model/VoiceStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/AbstractOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/FlowOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/FlowOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/FlowOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/FlowOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/SmsOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/TplOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/UserOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/VoiceOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/VoiceOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/VoiceOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/service/YunpianRestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/ApiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/Convert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/DesUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/HttpEntityWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/HttpUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/HttpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/JsonUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/SignUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/SignUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/sdk/util/TeaUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/AbstractOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/FlowOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/FlowOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/FlowOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/FlowOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/SmsOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/TplOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/UserOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/VoiceOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/VoiceOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/VoiceOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/service/YunpianRestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/ApiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/Convert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/DesUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/HttpEntityWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/HttpUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/HttpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/JsonUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/SignUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/SignUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/yunpian/util/TeaUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BlacklistMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BlogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/FriendMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/MessageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ReplyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/RoomMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/redis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yunpian.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yunpian_online.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yunpian_rest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yunpian_test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/controller/UsersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/BlacklistMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/BlogMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/FriendMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/MessageMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/ReplyMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/RoomMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/mapper/UsersMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Blacklist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Blog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Friend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Reply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/pojo/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/RoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/SmsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/UsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/impl/RoomServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/impl/TestSmsApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/impl/TestYunpianClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/service/impl/UsersServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/utils/DataView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/weiguang/utils/StatusUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/YunpianClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/YunpianConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/YunpianException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/YunpianClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/YunpianConf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/YunpianException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/ApiFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/CallApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$3$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/FlowApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/ShortUrlApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/ShortUrlApi$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/ShortUrlApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/ShortUrlApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SignApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SignApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SignApi$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SignApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SignApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$6$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$7$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$8$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$9$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/SmsApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/TplApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/UserApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/UserApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/UserApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VideoSmsApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VideoSmsApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VideoSmsApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VideoSmsApi$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VideoSmsApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi$3$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoiceApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/VoidApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$AbstractResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$ListResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$MapResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$ResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$SimpleListResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult$StdResultHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/api/YunpianApiResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/Code.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/Messages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/YunpianConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/constant/messages_zh_CN.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/BaseInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/BaseStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/Blackword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/CallBill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/CallBind.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/CallRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/ErrorInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/FlowPackage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/FlowSend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/FlowStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/Result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/ResultDO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/ShortUrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/Sign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SignRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SmsBatchSend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SmsRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SmsReply.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SmsSingleSend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/SmsStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/Template.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/VideoLayout$FrameData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/VideoLayout$VideoFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/VideoLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/VoiceSend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/model/VoiceStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/AbstractOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/FlowOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/FlowOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/FlowOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/FlowOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/SmsOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/TplOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/UserOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/VoiceOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/VoiceOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/VoiceOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/service/YunpianRestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/ApiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/Convert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/DesUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/HttpEntityWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/HttpUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/HttpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/JsonUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/SignUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/SignUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/sdk/util/TeaUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/AbstractOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/FlowOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/FlowOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/FlowOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/FlowOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/SmsOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/TplOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/UserOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/VoiceOperator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/VoiceOperator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/VoiceOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/service/YunpianRestClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/ApiUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/Convert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/DesUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/HttpEntityWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/HttpUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/HttpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/JsonUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/SignUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/SignUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/com/yunpian/util/TeaUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/BlacklistMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/BlogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/FriendMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/MessageMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/ReplyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/RoomMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mapper/UsersMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/redis.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/spring-redis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/yunpian.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/yunpian_online.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/yunpian_rest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/classes/yunpian_test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/commons-pool2-2.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/cors-filter-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.40.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/gson-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpasyncclient-4.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpasyncclient-cache-4.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpclient-cache-4.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpcore-nio-4.4.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/httpmime-4.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/java-property-utils-1.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-0.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-4.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-aspects-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-1.12.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-1.1.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-1.7.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-4.2.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-test-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.11.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weiguang-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -676,8 +568,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/weiguang/controller/UsersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="250">
+              <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -685,7 +577,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/weiguang/service/impl/RoomServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="475">
               <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -750,8 +642,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="44" />
-    <option name="y" value="23" />
+    <option name="x" value="54" />
+    <option name="y" value="14" />
     <option name="width" value="1320" />
     <option name="height" value="734" />
   </component>
@@ -763,6 +655,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -897,16 +790,10 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="weiguang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weiguang" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1063,7 +950,8 @@
       <workItem from="1565136759702" duration="896000" />
       <workItem from="1565224703615" duration="23877000" />
       <workItem from="1565262371623" duration="11173000" />
-      <workItem from="1565309675985" duration="921000" />
+      <workItem from="1565309675985" duration="2604000" />
+      <workItem from="1565435150820" duration="969000" />
     </task>
     <task id="LOCAL-00001" summary="反向生成实体类">
       <created>1565058213755</created>
@@ -1072,17 +960,23 @@
       <option name="project" value="LOCAL" />
       <updated>1565058213755</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="李国状 第一次提交 全部分工">
+      <created>1565311495707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565311495707</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42740000" />
+    <option name="totallyTimeSpent" value="45392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27424243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2651515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -1105,7 +999,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32954547" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="bottom" id="JRebel Console" order="16" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="17" weight="0.37337664" />
@@ -1115,7 +1009,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" x="0" y="0" width="266" height="539" id="Documentation" order="6" sideWeight="0.27272728" side_tool="true" visible="true" weight="0.09848485" />
+      <window_info anchor="right" x="0" y="0" width="266" height="539" id="Documentation" order="6" sideWeight="0.27272728" side_tool="true" weight="0.09848485" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1165,9 +1059,50 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="反向生成实体类" />
-    <option name="LAST_COMMIT_MESSAGE" value="反向生成实体类" />
+    <MESSAGE value="李国状 第一次提交 全部分工" />
+    <option name="LAST_COMMIT_MESSAGE" value="李国状 第一次提交 全部分工" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weiguang/pojo/Blog.java">
@@ -1464,16 +1399,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoomMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/weiguang/controller/UsersController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1675">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="250">
+          <caret line="90" column="31" lean-forward="true" selection-start-line="90" selection-start-column="31" selection-end-line="90" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/weiguang/service/impl/RoomServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="475">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1481,10 +1416,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/weiguang/controller/UsersController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoomMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="1675">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
