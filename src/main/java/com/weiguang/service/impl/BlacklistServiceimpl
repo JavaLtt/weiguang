@@ -1,0 +1,31 @@
+package com.weiguang.service.impl;
+
+import com.weiguang.mapper.BlacklistMapper;
+import com.weiguang.pojo.Blacklist;
+import com.weiguang.service.BlacklistService;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.util.Map;
+
+@Service
+public class BlacklistServiceimpl implements BlacklistService {
+    @Resource
+    private BlacklistMapper blacklistMapper;
+
+    @Override
+    public int insert(Blacklist record) {
+        return blacklistMapper.insert(record);
+    }
+
+    @Override
+    public Blacklist findid(Map map) {
+        return blacklistMapper.findid(map);
+    }
+
+
+    @Override
+    public int deleteByPrimaryKey(Integer id) {
+        return blacklistMapper.deleteByPrimaryKey(id);
+    }
+}
