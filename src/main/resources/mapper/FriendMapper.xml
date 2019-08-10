@@ -12,6 +12,14 @@
   <sql id="Base_Column_List">
     id, friendID, uID, state, showBlog, addTime
   </sql>
+  
+  <!--刘童添加-->
+  <select id="selectByUid" resultType="com.weiguang.pojo.Friend">
+    select friendid from friend where uid=#{uid}
+  </select>
+  
+  
+  
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
     <include refid="Base_Column_List" />
