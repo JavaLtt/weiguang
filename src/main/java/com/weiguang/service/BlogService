@@ -1,0 +1,10 @@
+package com.weiguang.service;
+
+import com.weiguang.pojo.Blog;
+
+import java.util.List;
+
+public interface BlogService {
+    //动态查询
+    public List<Blog> findbyUserId(int userId);
+}
