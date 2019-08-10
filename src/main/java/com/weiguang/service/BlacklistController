@@ -1,0 +1,18 @@
+package com.weiguang.service;
+
+import com.weiguang.pojo.Blacklist;
+
+import java.util.Map;
+
+public interface BlacklistService {
+
+    //添加黑名单
+    int insert(Blacklist record);
+
+    //查找id
+    public Blacklist findid(Map map);
+
+
+    //删除黑名单byid
+    int deleteByPrimaryKey(Integer id);
+}
