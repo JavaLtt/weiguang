@@ -1,0 +1,15 @@
+package com.weiguang.service;
+
+import com.weiguang.pojo.Friend;
+
+import java.util.Map;
+
+public interface FriendService {
+    //添加朋友
+    int insert(Friend record);
+    //查找用户
+    public Friend findfriend(int userID,int uid);
+    //修改朋友blog信息
+    int updateByPrimaryKey(Friend record);
+
+}
