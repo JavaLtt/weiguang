@@ -13,4 +13,7 @@ public interface RoomService{
     //根据资源拥有着查询资源信息
     Room selectByOwnerid(int ownerid);
     
+    
+    int insertSelective(Room record);
+    
 }
