@@ -1,0 +1,68 @@
+package com.weiguang.controller;
+
+import com.weiguang.pojo.Blacklist;
+import com.weiguang.service.BlacklistService;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import javax.annotation.Resource;
+import java.util.HashMap;
+import java.util.Map;
+
+@Controller
+@ResponseBody
+public class BlacklistController {
+    @Resource
+    private BlacklistService blacklistService;
+
+
+    /*
+    * 添加黑名单
+    * */
+    @RequestMapping(method = RequestMethod.GET,value = "addList")
+    public Map addblacklist(int userid,int uid){
+        Blacklist blacklist = new Blacklist();
+        blacklist.setBlackid(uid);
+        blacklist.setUserid(userid);
+        int k = blacklistService.insert(blacklist);
+        HashMap map =new HashMap();
+        if(k>0){
+            map.put("code",0);
+            map.put("msg","成功");
+            return map;
+        }
+        map.put("code",0);
+        map.put("msg","失败");
+
+        return map;
+    }
+
+    /*
+    * 从黑名单中移除
+    * */
+    @RequestMapping(method = RequestMethod.POST,value = "blackdel")
+    public Map delbalckbyid(int userid,int uid){
+        //根据userID和uid查询blacklist的id
+        HashMap map1= new HashMap<>();
+        map1.put("blackid",uid);
+        map1.put("userid",userid );
+        Blacklist blacklist = blacklistService.findid(map1);
+        Integer id = blacklist.getId();
+       //根据id删除黑名单
+        HashMap map = new HashMap<>();
+        int k = blacklistService.deleteByPrimaryKey(id);
+        if(k>0){
+            map.put("code",0);
+            map.put("msg","成功");
+            return map;
+        }
+        map.put("code",0);
+        map.put("msg","失败");
+
+        return map;
+    }
+
+
+}
