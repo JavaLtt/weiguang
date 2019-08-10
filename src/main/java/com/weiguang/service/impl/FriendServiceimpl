@@ -1,0 +1,36 @@
+package com.weiguang.service.impl;
+
+import com.weiguang.mapper.FriendMapper;
+import com.weiguang.pojo.Friend;
+import com.weiguang.service.FriendService;
+import org.apache.ibatis.annotations.Delete;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.util.HashMap;
+import java.util.Map;
+
+@Service
+public class FriendServiceimpl implements FriendService {
+    @Resource
+    private FriendMapper friendMapper;
+
+    @Override
+    public int insert(Friend record) {
+
+        return friendMapper.insert(record);
+    }
+
+    @Override
+    public Friend findfriend(int userID,int uid) {
+        HashMap<Object, Object> map = new HashMap<>();
+        map.put("userid",userID);
+        map.put("uid",uid);
+        return friendMapper.findfriend(map);
+    }
+
+    @Override
+    public int updateByPrimaryKey(Friend record) {
+        return friendMapper.updateByPrimaryKey(record);
+    }
+}
