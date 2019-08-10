@@ -16,4 +16,15 @@ public interface UsersService {
 
     //新增用户 注册
     int insertSelective(Users record);
+    
+    
+      //根据主键id查询用户
+    public Users findbyid(int id);
+    //根据wid查询friend
+    public Users findfriendbywid(int wid );
+    //根据名称模糊差friend
+    public List<Users> findfriendbyname(String name);
+    //修改朋友数量
+    int updateByPrimaryKey(Users record);
+
 }
