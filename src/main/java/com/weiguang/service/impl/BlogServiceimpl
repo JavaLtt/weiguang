@@ -1,0 +1,20 @@
+package com.weiguang.service.impl;
+
+import com.weiguang.mapper.BlogMapper;
+import com.weiguang.pojo.Blog;
+import com.weiguang.service.BlogService;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.util.List;
+
+@Service
+public class BlogServiceimpl implements BlogService {
+    @Resource
+    private BlogMapper blogMapper;
+
+    @Override
+    public List<Blog> findbyUserId(int userId) {
+        return blogMapper.findbyUserId(userId);
+    }
+}
