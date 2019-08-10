@@ -34,4 +34,26 @@ public class RoomServiceImpl implements RoomService {
         PageInfo<Room> pageInfo=new PageInfo<>(roomList);
         return pageInfo;
     }
+    
+    
+     @Override
+    public PageInfo<Room> selectAll(int index,int size,Room room) {
+        PageHelper.startPage(index,size);
+        List<Room> roomList = roomMapper.selectAll(room);
+        PageInfo<Room> pageInfo = new PageInfo<>(roomList);
+        return pageInfo;
+    }
+
+    @Override
+    public Room selectByOwnerid(int ownerid) {
+        return roomMapper.selectByOwnerid(ownerid);
+    }
+    
+    
+     @Override
+    public int insertSelective(Room record) {
+        return roomMapper.insertSelective(record);
+    }
+    
+    
 }
