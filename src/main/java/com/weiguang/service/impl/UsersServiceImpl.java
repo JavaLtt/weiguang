@@ -32,4 +32,31 @@ public class UsersServiceImpl implements UsersService {
     public int insertSelective(Users record) {
         return usersMapper.insertSelective(record);
     }
+    
+      @Override
+    public Users findbyid(int id) {
+
+        return usersMapper.selectByPrimaryKey(id);
+    }
+
+    @Override
+    public Users findfriendbywid(int wid) {
+        Users users = usersMapper.findfriendbywid(wid);
+        return users;
+    }
+
+    @Override
+    public List<Users> findfriendbyname(String name) {
+
+        List<Users> usersList = usersMapper.findfriendbyname(name);
+
+        return usersList;
+    }
+
+    @Override
+    public int updateByPrimaryKey(Users record) {
+        return usersMapper.updateByPrimaryKey(record);
+    }
 }
+
+
