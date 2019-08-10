@@ -152,4 +152,43 @@ public class UsersController {
         map.put("data", map2);
         return map;
     }
+    
+    /*
+    * 退出登录
+    *
+    * */
+    @RequestMapping(method = RequestMethod.POST,value = "loginout")
+    public Map loginout(int userid, HttpSession session){
+        session.invalidate();
+        HashMap map = new HashMap<>();
+        map.put("code",0);
+        map.put("msg","成功");
+        return map;
+    }
+    
+    
+    /*
+* 根据微光号或名称模糊查询用户
+*
+* */
+    @RequestMapping(method = RequestMethod.POST,value = "selectFrinds")
+    public Map findfriends(String infomation){
+        boolean isNum = infomation.matches("[0-9]+");
+        HashMap map = new HashMap();
+        if(isNum){
+            int info = Integer.parseInt(infomation);
+            Users users = usersService.findfriendbywid(info);
+            map.put("code",0);
+            map.put("msg","成功");
+            map.put("data",users);
+            return map;
+        }
+        List<Users> usersList = usersService.findfriendbyname(infomation);
+        map.put("code",0);
+        map.put("msg","成功");
+        map.put("data",usersList);
+        return  map;
+    }
+
+
 }
