@@ -40,5 +40,28 @@ public class BlogController {
         map.put("data",blogList);
         return map ;
     }
+    
+    
+   @RequestMapping(method = RequestMethod.POST,value = "/addBlog")
+    public Map addBlog(int uid,Blog blog){
+        blog.setUid(uid);
+        blog.setBlogtime(new Date());
+        int i = blogService.insertSelective(blog);
+        if (i>0){
+            Map map = new HashMap();
+            map.put("code",0);
+            map.put("msg","成功");
+            map.put("data","");
+            return map;
+        }else {
+            Map map = new HashMap();
+            map.put("code",1);
+            map.put("msg","失败");
+            map.put("data","");
+            return map;
+        }
+
+    }
+    
 
 }
