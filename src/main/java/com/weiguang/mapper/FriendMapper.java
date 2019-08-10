@@ -18,4 +18,6 @@ public interface FriendMapper {
     int updateByPrimaryKeySelective(Friend record);
 
     int updateByPrimaryKey(Friend record);
+ //查找用户
+    public Friend findfriend(Map map);
 }
