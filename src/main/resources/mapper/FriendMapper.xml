@@ -18,7 +18,10 @@
     select friendid from friend where uid=#{uid}
   </select>
   
-  
+  <!-- 查找friend-->
+  <select id="findfriend" resultMap="BaseResultMap">
+    select * from friend where uID=  #{userid} and friendID = #{uid}
+  </select>
   
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
