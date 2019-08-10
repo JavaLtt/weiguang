@@ -19,6 +19,10 @@
     from blog
     where blogID = #{blogid,jdbcType=INTEGER}
   </select>
+   <!--根据uid查询动态-->
+  <select id="findbyUserId" resultMap="BaseResultMap">
+    select * from blog where uID=#{userId}
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from blog
     where blogID = #{blogid,jdbcType=INTEGER}
