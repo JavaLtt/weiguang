@@ -39,6 +39,25 @@
   </sql>
 
 
+  <!--刘童添加-->
+  <select id="selectAll" parameterType="com.weiguang.pojo.Room" resultMap="BaseResultMap">
+      select room.*,users.userid,users.name from room,users
+      where room.ownerid=users.userid
+        <if test="roomname!=null and roomname!=''">
+          and roomname like '%${roomname}%'
+        </if>
+        <if test="roomtype!=null and roomtype!=''">
+          and roomtype=#{roomtype}
+        </if>
+        <if test="resourcetype!=null and resourcetype!=''">
+          and resourcetype=#{resourcetype}
+        </if>
+  </select>
+  <select id="selectByOwnerid" resultType="com.weiguang.pojo.Room">
+      select * from room where ownerid=#{ownerid}
+  </select>
+  
+  
 
   <select id="findall" resultMap="BaseResultMap">
     select * from room r,users u where r.ownerID=u.userID
