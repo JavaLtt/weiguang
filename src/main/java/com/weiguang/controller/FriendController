@@ -84,5 +84,29 @@ public class FriendController {
         return map;
     }
 
+@RequestMapping(method = RequestMethod.POST,value = "/selectFriend")
+    public Map selectFriend(int uid){
+        List<Friend> friendidList = friendService.selectByUid(uid);
+        List<Users> friendList = new ArrayList<>();
+        List list = new ArrayList();
+        for (Friend friend : friendidList) {
+            Users users = usersService.findbyid(friend.getFriendid());
+            FriendInfo friendInfo = new FriendInfo();
+            friendInfo.setUserid(users.getUserid());
+            friendInfo.setName(users.getName());
+            friendInfo.setIcon(users.getIcon());
+            friendInfo.setGender(users.getGender());
+            friendInfo.setAddtime(friend.getAddtime());
+           list.add(friendInfo);
+        }
+        Map map = new HashMap();
+        map.put("code",0);
+        map.put("msg","成功");
+        map.put("data",list);
+        return map;
+    }
+
+
+
 
 }
