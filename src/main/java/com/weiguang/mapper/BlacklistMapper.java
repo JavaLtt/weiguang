@@ -14,4 +14,6 @@ public interface BlacklistMapper {
     int updateByPrimaryKeySelective(Blacklist record);
 
     int updateByPrimaryKey(Blacklist record);
+     //查找id
+    public Blacklist findid(Map map);
 }
