@@ -64,5 +64,14 @@ public class BlacklistController {
         return map;
     }
 
+    //查询黑名单
+    @RequestMapping(method = RequestMethod.POST,value = "selectAllBlackList")
+    public Map selectBlacklist(@RequestParam(defaultValue = "1") int index, HttpSession session){
+        int userID=(int)session.getAttribute("userID");
+        PageInfo pageInfo=blacklistService.selectBlacklist(index, PageUtil.PAGESIZE,userID);
+        Map map=new HashMap();
+        map.put("code",0);
+        map.put("data",pageInfo);
+        return map;
 
 }
