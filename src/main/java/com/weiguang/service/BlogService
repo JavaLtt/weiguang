@@ -9,4 +9,19 @@ public interface BlogService {
     public List<Blog> findbyUserId(int userId);
     
     int insertSelective(Blog record);
+    
+        //获取·博客动态列表
+   public PageInfo<Blog>  getBlogList(int index,int size);
 }
+
+int deleteByPrimaryKey(Integer blogid);
+
+    int insert(Blog record);
+
+    int insertSelective(Blog record);
+
+    Blog selectByPrimaryKey(Integer blogid);
+
+    int updateByPrimaryKeySelective(Blog record);
+
+    int updateByPrimaryKey(Blog record);
