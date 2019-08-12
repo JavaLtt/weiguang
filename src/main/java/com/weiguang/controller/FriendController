@@ -106,7 +106,27 @@ public class FriendController {
         return map;
     }
 
+    //查询好友
+    @RequestMapping(method = RequestMethod.GET,value = "findAllFriends")
+    public Map selectAllFriends(@RequestParam(defaultValue = "1") int index, HttpSession session){
+        int userID=(int)session.getAttribute("userID");
+        PageInfo pageInfo=friendService.selectFriendByID(index, PageUtil.PAGESIZE,userID);
+        Map map=new HashMap();
+        map.put("code",0);
+        map.put("data",pageInfo);
+        return map;
+    }
 
+    //查询不看动态的好友
+    @RequestMapping(method = RequestMethod.POST,value = "selectFriend")
+    public Map selectCover(@RequestParam(defaultValue = "1") int index,HttpSession session){
+        int userID=(int)session.getAttribute("userID");
+        PageInfo pageInfo=friendService.selectCoverByID(index,PageUtil.PAGESIZE,userID);
+        Map map=new HashMap();
+        map.put("code",0);
+        map.put("data",pageInfo);
+        return map;
+    }
 
 
 }
