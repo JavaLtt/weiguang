@@ -7,6 +7,9 @@ import java.util.Map;
 
 public interface RoomMapper {
     
+        //隨緣匹配
+    Room getRoomList(Map map);
+    
     //通过关键字搜索视频
     List selectVideosByName(String keyWord);
 
