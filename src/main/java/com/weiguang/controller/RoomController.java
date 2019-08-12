@@ -78,5 +78,52 @@ public class RoomController {
         }
     }
 
+    //进入房间
+    @RequestMapping(method = RequestMethod.POST,value = "enterRoom")
+    public Map IntotheRoom(int ownID, HttpSession session){
+        int userID=(int)session.getAttribute("userID");
+        Room room=new Room();
+        room=roomService.IntotheRoom(ownID);
+        //房主信息
+        Users owner=new Users();
+        owner=usersService.findbyid(ownID);
+        //用户信息
+        Users user=new Users();
+        user=usersService.findbyid(userID);
+        Map map=new HashMap();
+        Map innerMap=new HashMap();
+        innerMap.put("owener",owner);
+        innerMap.put("user",user);
+        innerMap.put("room",room);
+        map.put("code",0);
+        map.put("data",innerMap);
+        return map;
+    }
+
+    //关键字查询所有信息
+    @RequestMapping(method = RequestMethod.GET,value = "searchAllInfo")
+    public Map selectInfoByName(@RequestParam(defaultValue = "1") int index, String keyWord){
+        Map map=new HashMap();
+        Map innerMap=new HashMap();
+
+        PageInfo videosInfo=roomService.selectVideosInfo(index, PageUtil.PAGESIZE,keyWord);
+        PageInfo musicInfo=roomService.selectMusicInfo(index,PageUtil.PAGESIZE,keyWord);
+        PageInfo usersInfo=usersService.selectUserByName(index,PageUtil.PAGESIZE,keyWord);
+
+        int userCount=usersService.selectUserCount(keyWord);
+        int videoCount=roomService.selectVideoCount(keyWord);
+        int musicCount=roomService.selectMusicCount(keyWord);
+
+        innerMap.put("videosInfo",videosInfo);
+        innerMap.put("musicInfo",musicInfo);
+        innerMap.put("usersInfo",usersInfo);
+        innerMap.put("userCount",userCount);
+        innerMap.put("videoCount",videoCount);
+        innerMap.put("musicCount",musicCount);
+
+        map.put("data",innerMap);
+        map.put("code",0);
+        return map;
+    }
 
 }
