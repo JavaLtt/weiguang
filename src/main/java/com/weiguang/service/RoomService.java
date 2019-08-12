@@ -31,4 +31,7 @@ public interface RoomService{
     //关键字查找音乐数量
     int selectMusicCount(String keyWord);
     
+        //隨緣匹配
+    Room getRoomList(Map map);
+    
 }
