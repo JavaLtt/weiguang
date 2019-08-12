@@ -28,4 +28,13 @@ public class BlacklistServiceimpl implements BlacklistService {
     public int deleteByPrimaryKey(Integer id) {
         return blacklistMapper.deleteByPrimaryKey(id);
     }
+    
+    //查询本人黑名单
+    @Override
+    public PageInfo selectBlacklist(int index, int size, int userID) {
+        PageHelper.startPage(index,size);
+        List blackList=blacklistMapper.selectBlackByID(userID);
+        PageInfo pageInfo=new PageInfo(blackList);
+        return pageInfo;
+    }
 }
