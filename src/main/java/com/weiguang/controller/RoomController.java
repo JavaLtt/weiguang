@@ -106,9 +106,9 @@ public class RoomController {
         Map map=new HashMap();
         Map innerMap=new HashMap();
 
-        PageInfo videosInfo=roomService.selectVideosInfo(index, PageUtil.PAGESIZE,keyWord);
-        PageInfo musicInfo=roomService.selectMusicInfo(index,PageUtil.PAGESIZE,keyWord);
-        PageInfo usersInfo=usersService.selectUserByName(index,PageUtil.PAGESIZE,keyWord);
+        PageInfo videosInfo=roomService.selectVideosInfo(index,StatusUtil.PAGESIZE,keyWord);
+        PageInfo musicInfo=roomService.selectMusicInfo(index,StatusUtil.PAGESIZE,keyWord);
+        PageInfo usersInfo=usersService.selectUserByName(index,StatusUtil.PAGESIZE,keyWord);
 
         int userCount=usersService.selectUserCount(keyWord);
         int videoCount=roomService.selectVideoCount(keyWord);
