@@ -26,5 +26,11 @@ public interface UsersService {
     public List<Users> findfriendbyname(String name);
     //修改朋友数量
     int updateByPrimaryKey(Users record);
+    
+    //关键字查询用户
+    PageInfo selectUserByName(int index, int size, String keyWord);
+
+    //关键字查询用户数量
+    int selectUserCount(String keyWord);
 
 }
