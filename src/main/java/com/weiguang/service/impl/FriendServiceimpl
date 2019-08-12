@@ -33,4 +33,20 @@ public class FriendServiceimpl implements FriendService {
     public int updateByPrimaryKey(Friend record) {
         return friendMapper.updateByPrimaryKey(record);
     }
+    
+    @Override
+    public PageInfo<Users> selectFriendByID(int index,int size,int id) {
+        PageHelper.startPage(index,size);
+        List userList=friendMapper.selectFriendByID(id);
+        PageInfo pageInfo=new PageInfo(userList);
+        return pageInfo;
+    }
+
+    @Override
+    public PageInfo<Users> selectCoverByID(int index, int size, int id) {
+        PageHelper.startPage(index,size);
+        List userList=friendMapper.selectCoverByID(id);
+        PageInfo pageInfo=new PageInfo(userList);
+        return pageInfo;
+    }
 }
