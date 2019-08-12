@@ -15,6 +15,16 @@ public class Reply {
 
     @JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss")
     private Date replytime;
+    
+     private  Users users;
+
+    public Users getUsers() {
+        return users;
+    }
+
+    public void setUsers(Users users) {
+        this.users = users;
+    }
 
     public Integer getId() {
         return id;
