@@ -57,6 +57,20 @@ public class UsersServiceImpl implements UsersService {
     public int updateByPrimaryKey(Users record) {
         return usersMapper.updateByPrimaryKey(record);
     }
+    
+    //关键字查询用户信息
+    @Override
+    public PageInfo selectUserByName(int index,int size,String keyWord) {
+        PageHelper.startPage(index,size);
+        List<Users> usersList=usersMapper.selectUserByName(keyWord);
+        PageInfo pageInfo=new PageInfo(usersList);
+        return pageInfo;
+    }
+
+    @Override
+    public int selectUserCount(String keyWord) {
+        return usersMapper.selectUserCount(keyWord);
+    }
 }
 
 
