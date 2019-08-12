@@ -63,5 +63,43 @@ public class BlogController {
 
     }
     
+     //获取动态内容
+    @RequestMapping(method= RequestMethod.POST,value = "/getdynamic")
+    public DataView getbBlogList(@RequestParam(defaultValue = "1") int index){
+        PageInfo<Blog> blogList1 = blogService.getBlogList(index, StatusUtil.PAGESIZE);
+        List<Blog> blogList = blogList1.getList();
+        DataView<Blog> blogDatView = new DataView<>();
+        blogDatView.setCode(0);
+        blogDatView.setMsg("成功");
+        for (Blog blog : blogList) {
+           Integer uid = blog.getUid();
+            Users users = usersService.findbyid(uid);
+            blog.setUsers(users);
+        }
+        blogDatView.setData(blogList);
+        return blogDatView;
+
+    }
+
+
+    //点赞
+    @RequestMapping(method = RequestMethod.POST,value = "/addLike")
+    public  Map addKike(int blogid){
+        Blog blog = blogService.selectByPrimaryKey(blogid);
+     int i= blogService.updateByPrimaryKey(blog);
+        Integer likecount = blog.getLikecount();
+        Map map1= new HashMap<>();
+        map1.put("likecount",likecount);
+        if (i>0){
+           Map map = new HashMap<>();
+           map.put("code",0);
+           map.put("msg","成功");
+           map.put("code",map1);
+           return  map;
+        }
+        return null;
+    }
+
+    
 
 }
