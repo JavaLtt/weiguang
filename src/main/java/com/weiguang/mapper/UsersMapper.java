@@ -3,6 +3,13 @@ package com.weiguang.mapper;
 import com.weiguang.pojo.Users;
 
 public interface UsersMapper {
+    
+    //关键字查询用户信息
+    List selectUserByName(String keyWord);
+
+    //关键字查询用户数量
+    int selectUserCount(String keyWord);
+    
     int deleteByPrimaryKey(Integer userid);
 
     int insert(Users record);
