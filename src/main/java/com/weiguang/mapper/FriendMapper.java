@@ -4,6 +4,12 @@ import com.weiguang.pojo.Friend;
 
 public interface FriendMapper {
     
+    //查找好友
+    List selectFriendByID(Integer id);
+
+    //查找不看动态的好友
+    List selectCoverByID(Integer id);
+    
     //查询当前用户的全部比心好友的id
     List<Friend> selectByUid(int uid);
     
