@@ -15,4 +15,7 @@ public interface BlacklistService {
 
     //删除黑名单byid
     int deleteByPrimaryKey(Integer id);
+    
+    //查询我的黑名单
+    PageInfo selectBlacklist(int index,int size,int userID);
 }
