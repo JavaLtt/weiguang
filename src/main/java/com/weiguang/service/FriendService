@@ -15,5 +15,10 @@ public interface FriendService {
     //查询当前用户的全部比心好友
     List<Friend> selectByUid(int uid);
     
+    //查询我的好友
+    PageInfo<Users> selectFriendByID(int index,int size,int id);
+
+    //查询我不看动态的好友
+    PageInfo<Users> selectCoverByID(int index,int size,int id);
 
 }
