@@ -9,7 +9,17 @@
     <result column="uID" jdbcType="INTEGER" property="uid" />
     <result column="replyCount" jdbcType="INTEGER" property="replycount" />
     <result column="likeCount" jdbcType="INTEGER" property="likecount" />
+       <association property="users" javaType="com.weiguang.pojo.Users" autoMapping="true">
+      <id column="userId" jdbcType="INTEGER" property="userid" />
+      <result column="name" jdbcType="VARCHAR" property="name" />
+      <result column="icon" jdbcType="VARCHAR" property="icon" />
+      <result column="gender" jdbcType="INTEGER" property="gender" />
+    </association>
   </resultMap>
+  
+  <select id="getBlogList" resultMap="BaseResultMap">
+    SELECT  * FROM blog
+  </select>
   <sql id="Base_Column_List">
     blogID, blogContent, blogImage, blogTime, uID, replyCount, likeCount
   </sql>
