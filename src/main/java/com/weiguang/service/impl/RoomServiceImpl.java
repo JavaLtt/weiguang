@@ -55,5 +55,35 @@ public class RoomServiceImpl implements RoomService {
         return roomMapper.insertSelective(record);
     }
     
-    
+    @Override
+    public Room IntotheRoom(int ownerID) {
+        return roomMapper.selectByPrimaryKey(ownerID);
+    }
+
+    @Override
+    public PageInfo selectVideosInfo(int index,int size,String keyWord) {
+        PageHelper.startPage(index,size);
+        List videoList=roomMapper.selectVideosByName(keyWord);
+        PageInfo pageInfo=new PageInfo(videoList);
+        return pageInfo;
+    }
+
+    @Override
+    public int selectVideoCount(String keyWord) {
+        return roomMapper.selectVideoCount(keyWord);
+    }
+
+    @Override
+    public PageInfo selectMusicInfo(int index,int size,String keyWord) {
+        PageHelper.startPage(index,size);
+        List musicList=roomMapper.selectMusicByName(keyWord);
+        PageInfo pageInfo=new PageInfo(musicList);
+        return pageInfo;
+    }
+
+    @Override
+    public int selectMusicCount(String keyWord) {
+        return roomMapper.selectMusicCount(keyWord);
+    }
+}
 }
