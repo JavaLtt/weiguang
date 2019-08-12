@@ -125,5 +125,21 @@ public class RoomController {
         map.put("code",0);
         return map;
     }
+    
+      //隨緣匹配
+    @RequestMapping(method = RequestMethod.POST,value = "/matching")
+    public Map getUserList( Integer gender, Integer beginage, Integer endage, String  resources){
+        Map map= new HashMap();
+        map.put("gender",gender);
+        map.put("beginage", beginage);
+        map.put("endage", endage);
+        map.put("resources",resources);
+        Room room = roomService.getRoomList(map);
+      Map map1 = new HashMap<>();
+      map1.put("code",0);
+      map1.put("msg","成功");
+      map1.put("data",room);
+return map1;
+    }
 
 }
