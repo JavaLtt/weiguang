@@ -297,4 +297,30 @@
       resourceImg = #{resourceimg,jdbcType=VARCHAR}
     where roomID = #{roomid,jdbcType=INTEGER}
   </update>
+  <select id="getRoomList" resultMap="BaseResultMap">
+    select * from room r,users u where r.ownerID=u.userID
+
+
+
+    <if test="gender!=null" >
+      and u.gender=#{gender}
+    </if>
+
+    <if test="beginage!=null" >
+      and u.age>=#{beginage}
+    </if>
+
+    <if test="endage!=null" >
+      and u.age <![CDATA[ <= ]]> #{endage}
+    </if>
+
+    <if test="rlist!=null">
+      and r.resourceType in
+      <foreach collection="rlist" separator="," open="(" close=")" item="resoucetype" >
+        #{resoucetype}
+      </foreach>
+    </if>
+    LIMIT 0,1
+
+  </select>
 </mapper>
