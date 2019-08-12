@@ -49,6 +49,43 @@
     where userID = #{userid,jdbcType=INTEGER}
   </select>
   
+  <!--关键字查询用户信息-->
+  <select id="selectUserByName" parameterType="java.lang.String" resultMap="com.weiguang.pojo.Users">
+    select
+    <include refid="Base_Column_List" />
+    from users
+    where `name` like "%"${keyWord}"%"
+  </select>
+
+  <!--查询本人好友-->
+  <select id="selectFriendByID" parameterType="java.lang.Integer" resultType="com.weiguang.pojo.Users">
+    select userID,icon,`name`,info,gender,status
+    from users
+    where userID in (select friendID from friend where uID=#{userID} and state=1)
+  </select>
+
+  <!--查询不看动态的好友-->
+  <select id="selectCoverByID" parameterType="java.lang.Integer" resultType="com.weiguang.pojo.Users">
+    select userID,icon,`name`,gender
+    from users
+    where userID in (select friendID from friend where uID=#{userID} and state=1)
+    and showBlog=1
+  </select>
+
+  <!--查询本人黑名单-->
+  <select id="selectBlackByID" parameterType="java.lang.Integer" resultType="com.weiguang.pojo.Users">
+    select userID,icon,`name`,gender
+    from users
+    where userID in (select blackID from blacklist where userID=#{userID})
+  </select>
+
+  <!--查询用户数量-->
+  <select id="selectUserCount" parameterType="java.lang.String" resultType="java.lang.Integer">
+    select count(*)
+    from users
+    where `name` like "%"${keyWord}"%"
+  </select>
+  
   <!--  wid查询-->
   <select id="findfriendbywid" resultMap="BaseResultMap">
     select * from users where weID = #{wid} and status =0
