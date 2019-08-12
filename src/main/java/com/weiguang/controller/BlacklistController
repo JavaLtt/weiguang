@@ -68,7 +68,7 @@ public class BlacklistController {
     @RequestMapping(method = RequestMethod.POST,value = "selectAllBlackList")
     public Map selectBlacklist(@RequestParam(defaultValue = "1") int index, HttpSession session){
         int userID=(int)session.getAttribute("userID");
-        PageInfo pageInfo=blacklistService.selectBlacklist(index, PageUtil.PAGESIZE,userID);
+        PageInfo pageInfo=blacklistService.selectBlacklist(index, StatusUtil.PAGESIZE,userID);
         Map map=new HashMap();
         map.put("code",0);
         map.put("data",pageInfo);
