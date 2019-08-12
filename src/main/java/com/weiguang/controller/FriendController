@@ -127,6 +127,19 @@ public class FriendController {
         map.put("data",pageInfo);
         return map;
     }
+    //比心
+    @RequestMapping(method = RequestMethod.POST,value = "/addfriend")
+    public DataView addFriend(Friend friend){
+      int i=  friendService.insert(friend);
+        if (i>0){
+          DataView<Friend> friendDataView = new DataView<>();
+            friendDataView.setCode(0);
+            friendDataView.setMsg("成功");
+          return  friendDataView;
+      }
+      return null;
+
+    }
 
 
 }
