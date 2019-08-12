@@ -16,4 +16,7 @@ public interface BlogMapper {
     int updateByPrimaryKey(Blog record);
     //动态查询
     public List<Blog> findbyUserId(int userId);
+    
+     //获取·博客动态列表
+    public List<Blog> getBlogList();
 }
