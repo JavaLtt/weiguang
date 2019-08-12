@@ -23,4 +23,18 @@ public class BlogServiceimpl implements BlogService {
         return blogMapper.insertSelective(record);
     }
     
+    @Override
+    public PageInfo<Blog> getBlogList(int index, int size) {
+        PageHelper.startPage(index,size);
+        List<Blog> blogList = blogMapper.getBlogList();
+        return new PageInfo<Blog>(blogList);
+    }
+    
+     @Override
+    @Transactional
+    public int updateByPrimaryKey(Blog blog) {
+       blog.setLikecount(blog.getLikecount()+1);
+        return   blogMapper.updateByPrimaryKey(blog);
+    }
+    
 }
