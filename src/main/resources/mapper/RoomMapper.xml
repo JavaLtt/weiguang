@@ -38,6 +38,33 @@
     roomType, buildTime, resource, editTime, resourceType, resourceImg
   </sql>
 
+  <!--关键字视频资源查询-->
+  <select id="selectVideosByName" parameterType="java.lang.String" resultType="java.lang.String" >
+    select distinct resource
+    from room
+    where roomName like "%"${keyword}"%" and resourceType=1
+  </select>
+
+  <!--关键字查询视频数量-->
+  <select id="selectVideoCount" parameterType="java.lang.String" resultType="java.lang.Integer">
+    select count (distinct  roomName)
+    from room
+    where roomName like "%"${keyword}"%" and resourceType=1
+  </select>
+
+  <!--关键字音乐资源查询-->
+  <select id="selectMusicByName" parameterType="java.lang.String" resultType="java.lang.String" >
+    select distinct resource
+    from room
+    where roomName like "%"${keyword}"%" and resourceType=2
+  </select>
+
+  <!--关键字查询音乐数量-->
+  <select id="selectMusicCount" parameterType="java.lang.String" resultType="java.lang.Integer">
+    select count (distinct roomName)
+    from room
+    where roomName like "%"${keyword}"%" and resourceType=2
+  </select>
 
   <!--刘童添加-->
   <select id="selectAll" parameterType="com.weiguang.pojo.Room" resultMap="BaseResultMap">
