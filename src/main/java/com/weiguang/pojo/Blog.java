@@ -19,6 +19,16 @@ public class Blog {
     private Integer replycount;
 
     private Integer likecount;
+     private Users users;
+
+    public Users getUsers() {
+        return users;
+    }
+
+    public void setUsers(Users users) {
+        this.users = users;
+    }
+
 
     public Integer getBlogid() {
         return blogid;
