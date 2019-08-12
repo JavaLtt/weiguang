@@ -7,6 +7,12 @@
     <result column="blogID" jdbcType="INTEGER" property="blogid" />
     <result column="replyContent" jdbcType="VARCHAR" property="replycontent" />
     <result column="replyTime" jdbcType="TIMESTAMP" property="replytime" />
+     <association property="users" javaType="com.weiguang.pojo.Users" autoMapping="true">
+      <id column="userId" jdbcType="INTEGER" property="userid" />
+      <result column="name" jdbcType="VARCHAR" property="name" />
+      <result column="icon" jdbcType="VARCHAR" property="icon" />
+      <result column="gender" jdbcType="INTEGER" property="gender" />
+    </association>
   </resultMap>
   <sql id="Base_Column_List">
     id, uid, blogID, replyContent, replyTime
@@ -27,6 +33,20 @@
     values (#{id,jdbcType=INTEGER}, #{uid,jdbcType=INTEGER}, #{blogid,jdbcType=INTEGER}, 
       #{replycontent,jdbcType=VARCHAR}, #{replytime,jdbcType=TIMESTAMP})
   </insert>
+  
+   <select id="getReplyByUid"   resultMap="BaseResultMap">
+    select * from reply r,users u where r.uid=u.userID
+    <if test="uid!=null">
+      AND r.uid=#{uid}
+    </if>
+  </select>
+  
+  <select id="getReplyList" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    SELECT  *
+    FROM reply
+    WHERE blogid=#{blogid}
+  </select>
+  
   <insert id="insertSelective" parameterType="com.weiguang.pojo.Reply">
     insert into reply
     <trim prefix="(" suffix=")" suffixOverrides=",">
