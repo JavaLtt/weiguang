@@ -16,4 +16,19 @@ public interface RoomService{
     
     int insertSelective(Room record);
     
+    //进入房间
+    Room IntotheRoom(int ownerID);
+
+    //关键字查找视频
+    PageInfo selectVideosInfo(int index, int size, String keyWord);
+
+    //关键字查找视频数量
+    int selectVideoCount(String keyWord);
+
+    //关键字查找音乐
+    PageInfo selectMusicInfo(int index,int size,String keyWord);
+
+    //关键字查找音乐数量
+    int selectMusicCount(String keyWord);
+    
 }
